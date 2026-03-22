@@ -1,3 +1,0 @@
-#!/bin/sh
-wal -i "$1"
-bash ~/.config/wal/postrun.sh
