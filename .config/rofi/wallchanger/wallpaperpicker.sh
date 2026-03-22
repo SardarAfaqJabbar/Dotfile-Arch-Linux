@@ -50,6 +50,7 @@ if [ -n "$selection" ]; then
   wal -i "$FULL_PATH" -n -q
   wal-set "$FULL_PATH"
   wpg -s "$FULL_PATH"
+  ~/.config/rmpc/pywal-theme.sh
 
   gsettings set org.gnome.desktop.interface gtk-theme "wpgtk"
  
