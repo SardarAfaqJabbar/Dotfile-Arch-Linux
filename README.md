@@ -1,5 +1,5 @@
 # Dotfile-Arch-Linux
-![Video](https://github.com/SardarAfaqJabbar/Dotfile-Arch-Linux/asset/output.mp4)   
+https://github.com/user-attachments/assets/2fdfaaca-c5d3-4619-b00e-9478ad419f89
 
 
 
