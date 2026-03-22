@@ -1,0 +1,43 @@
+{
+  "name": "pywal",
+  "variables": {
+    "accent_color": "#667D84",
+    "accent_bg_color": "#6E8A93",
+    "accent_fg_color": "#bfcacc",
+    "destructive_color": "#977E6F",
+    "destructive_bg_color": "#977E6F",
+    "destructive_fg_color": "#020D16",
+    "success_color": "#7896A1",
+    "success_bg_color": "#7896A1",
+    "success_fg_color": "#020D16",
+    "warning_color": "#587685",
+    "warning_bg_color": "#587685",
+    "warning_fg_color": "#020D16",
+    "error_color": "#977E6F",
+    "error_bg_color": "#977E6F",
+    "error_fg_color": "#020D16",
+    "window_bg_color": "#020D16",
+    "window_fg_color": "#bfcacc",
+    "view_bg_color": "#020D16",
+    "view_fg_color": "#bfcacc",
+    "headerbar_bg_color": "#020D16",
+    "headerbar_fg_color": "#bfcacc",
+    "headerbar_border_color": "#858d8e",
+    "headerbar_backdrop_color": "#020D16",
+    "headerbar_shade_color": "#020D16",
+    "card_bg_color": "#576F78",
+    "card_fg_color": "#bfcacc",
+    "card_shade_color": "#020D16",
+    "dialog_bg_color": "#576F78",
+    "dialog_fg_color": "#bfcacc",
+    "popover_bg_color": "#576F78",
+    "popover_fg_color": "#bfcacc",
+    "shade_color": "#020D16",
+    "scrollbar_outline_color": "#858d8e"
+  },
+  "palette": {},
+  "custom_css": {
+    "gtk4": "",
+    "gtk3": ""
+  }
+}
