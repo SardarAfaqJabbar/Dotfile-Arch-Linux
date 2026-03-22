@@ -1,4 +1,11 @@
 # Dotfile-Arch-Linux
+![Video](https://github.com/SardarAfaqJabbar/Dotfile-Arch-Linux/asset/output.mp4)   
+
+
+
+
+
+
 Arch Linux dotfiles and package lists
 
 PACKAGES LIST:
