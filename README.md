@@ -23,4 +23,6 @@ sudo pacman -S --needed adw-gtk-theme arc-gtk-theme bluez bluez-utils brightness
 ```bash
 yay -S --needed bluetui brave-bin eww eww-debug gradience impala ly matugen-bin matugen-bin-debug papirus-folders-git python-anyascii python-material-color-utilities python-yapsy-git rmpc satty-git satty-git-debug visual-studio-code-bin walker walker-debug wayfreeze-git wlogout wlogout-debug wpgtk yay yay-debug
 ```
-
+wallpaper in "~/Pictures/wallpapers
+cat ~/.config/mpd/mpd.conf | grep music_directory
+music_directory     "~/Music/MOOSIC"
