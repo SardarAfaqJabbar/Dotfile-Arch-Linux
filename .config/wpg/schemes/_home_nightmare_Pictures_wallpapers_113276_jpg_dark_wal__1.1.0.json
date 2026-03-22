@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nightmare/Pictures/wallpapers/113276.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010114",
+        "foreground": "#9ad8eb",
+        "cursor": "#9ad8eb"
+    },
+    "colors": {
+        "color0": "#010114",
+        "color1": "#224893",
+        "color2": "#1D5FA8",
+        "color3": "#404CA8",
+        "color4": "#1E72D1",
+        "color5": "#2194E9",
+        "color6": "#2395EE",
+        "color7": "#9ad8eb",
+        "color8": "#6b97a4",
+        "color9": "#224893",
+        "color10": "#1D5FA8",
+        "color11": "#404CA8",
+        "color12": "#1E72D1",
+        "color13": "#2194E9",
+        "color14": "#2395EE",
+        "color15": "#9ad8eb"
+    }
+}

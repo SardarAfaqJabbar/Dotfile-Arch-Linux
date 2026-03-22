@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nightmare/Pictures/wallpapers/Miku.png",
+    "alpha": "100",
+    "special": {
+        "background": "#080F1B",
+        "foreground": "#cddde2",
+        "cursor": "#cddde2"
+    },
+    "colors": {
+        "color0": "#080F1B",
+        "color1": "#338AB0",
+        "color2": "#5B99B5",
+        "color3": "#63B2CC",
+        "color4": "#64BDD5",
+        "color5": "#9D9AAD",
+        "color6": "#B5B5C0",
+        "color7": "#cddde2",
+        "color8": "#8f9a9e",
+        "color9": "#338AB0",
+        "color10": "#5B99B5",
+        "color11": "#63B2CC",
+        "color12": "#64BDD5",
+        "color13": "#9D9AAD",
+        "color14": "#B5B5C0",
+        "color15": "#cddde2"
+    }
+}

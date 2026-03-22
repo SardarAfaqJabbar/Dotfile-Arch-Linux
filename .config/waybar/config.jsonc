@@ -1,0 +1,176 @@
+[
+  {
+    "layer": "top",
+    "height": 50,
+    "spacing": 0,
+    "modules-left": [
+      "custom/wayves",
+      "custom/archicon",
+      "hyprland/window",
+      "mpris",
+    ],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": [
+      "clock",
+      "network",
+      "pulseaudio",
+      "battery",
+      "wireplumber",
+      "backlight",
+      "memory",
+      "temperature",
+      "custom/notification",
+      "custom/power"
+    ],
+
+    "custom/archicon": {
+      "format": " ",
+      "on-click": "eww open music_popup",
+      "tooltip": false,
+    },
+    "hyprland/workspaces": {
+      "disable-scroll": true,
+      "all-outputs": false,
+      "warp-on-scroll": false,
+      "format": "{icon}",
+      "format-icons": {
+        "1": " ",
+        "2": " ",
+        "3": " ",
+        "4": " ",
+        "5": " ",
+        "6": " ",
+        "7": " ",
+        "8": " ",
+        "9": " ",
+        "10": " ",
+        "urgent": "!",
+        "active": " ",
+        "default": "-",
+      },
+    },
+    "hyprland/window": {
+      "format": "{class}",
+      "max-length": 40,
+      "all-outputs": true,
+    },
+    "custom/wayves": {
+      "format": "{}",
+      "exec": "python ~/.config/cava/wayves/wayves.py -o cava -i cava -a cava",
+      "tooltip": false,
+    },
+    "mpris": {
+      "format": "{status_icon}  {dynamic}",
+      "interval": 1,
+      "dynamic-len": 60,
+      "status-icons": {
+        "playing": "",
+      },
+      "dynamic-order": ["title", "artist"],
+      // "on-click": "~/.config/eww/scripts/toggle_music_popup.sh"
+    },
+
+    "custom/music_popup": {
+      "format": "",
+      "on-click": "~/.config/eww/scripts/toggle_music_popup.sh",
+      "tooltip": false,
+    },
+    "idle_inhibitor": {
+      "format": "{icon}",
+      "format-icons": {
+        "activated": "󰅶",
+        "deactivated": "󰾪",
+      },
+    },
+    "hyprland/mode": {
+      "format": "{}",
+    },
+    "load": {
+      "format": "󰊚 {}",
+    },
+    "clock": {
+      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+      "format": "󰃭 {:%d-%m  󰥔 %H:%M }",
+      "format-alt": "󰃭  {:%Y-%m-%d}",
+    },
+    "backlight": {
+      "format": "{icon} {percent}%",
+      "format-icons": ["󰃞", "󰃟", "󰃠"],
+    },
+    "network": {
+      // "interface": "wlp2*", // (Optional) To force the use of this interface
+      "format-wifi": " ",
+      "format-ethernet": "󰈁 {ifname}",
+      "format-disconnected": "⚠ Disconnected ",
+      "on-click": "kitty --class impala -e impala",
+
+    },
+    "temperature": {
+      "interval": 10,
+      "hwmon-path": "/sys/class/hwmon/hwmon5/temp1_input",
+      "critical-threshold": 80,
+      "format-critical": "󰸁{temperatureC}°C",
+      "format": "󰔏{temperatureC}°C",
+    },
+
+    "memory": {
+      "interval": 5,
+      "format": " 󰍛 {used:0.1f}G",
+      "format-alt": " 󰍛 {percentage}%",
+      "tooltip": true,
+      "tooltip-format": "Memory: {used:0.1f}G / {total:0.1f}G ({percentage}%)\nSwap: {swapUsed:0.1f}G / {swapTotal:0.1f}G ({swapPercentage}%)",
+      "on-click": "kitty --title htop htop",
+    },
+    "battery": {
+      "states": {
+        "warning": 30,
+        "critical": 15,
+      },
+      "format": "{icon} {capacity}%",
+      "format-full": "󰁹 {capacity}%",
+      "format-charging": "󰂄 {capacity}%",
+      "format-plugged": "󰚥 {capacity}%",
+      "format-alt": "{icon} {time}",
+      "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    },
+    "wireplumber": {
+      "scroll-step": 5,
+      "format": "{icon} {volume}%",
+      "format-bluetooth": "󰂰 {volume}%",
+      "format-bluetooth-muted": "󰂲",
+      "format-muted": "󰝟",
+      "format-icons": {
+        "headphone": "󰋋",
+        "hands-free": "󰋎",
+        "headset": "󰋎",
+        "phone": "󰏲",
+        "portable": "󰄝",
+        "car": "󰄋",
+        "default": ["󰕿 ", "󰖀 ", "󰕾 "],
+      },
+      "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    },
+        "pulseaudio": {
+        "format": "{icon}",
+        "format-icons": {
+            "headphone": " ",
+            "headset": " ",
+            "default": [" "],
+        },
+        "on-click": "kitty --class bluetui -e bluetui",
+    },
+      "custom/notification": {
+          "tooltip": false,
+          "format": "󰂚",
+          "on-click": "dunstctl history-pop",
+          "on-click-right": "dunstctl history-clear",
+          "escape": true,
+      },
+    "custom/power": {
+     "format": "⏻",
+     "tooltip": false,
+     "on-click": "bash ~/.config/hypr/Scripts/wlogout.sh",
+    },
+  },
+    
+]

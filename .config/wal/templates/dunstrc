@@ -1,0 +1,66 @@
+[global]
+    origin = top-right
+    offset = (10, 10)
+
+    width = 380
+    height = (0, 300)
+    notification_limit = 0
+
+    corner_radius = 15
+    frame_width = 0
+    separator_height = 5
+    separator_color = frame
+    padding = 15
+    horizontal_padding = 20
+    text_icon_padding = 10
+    gap_size = 5
+
+    font = Segoe UI Variable Static Text 14
+
+    icon_position = left
+    min_icon_size = 50
+    max_icon_size = 50
+
+    sort = yes
+    idle_threshold = 0
+    sticky_history = yes
+    history_length = 20
+    always_run_script = true
+
+    timeout = 8
+
+    markup = full
+    format = <b>%s</b>\n%b
+    alignment = left
+    vertical_alignment = center
+    word_wrap = yes
+
+    mouse_left_click = do_action
+    mouse_right_click = close_current
+    mouse_middle_click = close_all
+
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_corner_radius = 4
+
+[urgency_low]
+    timeout = 6
+    background = "{color0}CC"
+    foreground = "{foreground}"
+    frame_color = "{color1}"
+
+[urgency_normal]
+    timeout = 8
+    background = "{color0}CC"
+    foreground = "{foreground}"
+    frame_color = "{color1}"
+
+[urgency_critical]
+    timeout = 0
+    background = "#e6455380"
+    foreground = "{foreground}"
+    frame_color = "#e64553"
+
+[spotify]
+    appname = Spotify
+    skip_display = yes

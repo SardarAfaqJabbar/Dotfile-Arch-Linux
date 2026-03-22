@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nightmare/Pictures/wallpapers/wallpaperflare.com_wallpaper (1).jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0e11",
+        "foreground": "#f0f2df",
+        "cursor": "#f0f2df"
+    },
+    "colors": {
+        "color0": "#0c0e11",
+        "color1": "#6F8E61",
+        "color2": "#A29360",
+        "color3": "#D9A75C",
+        "color4": "#78A487",
+        "color5": "#C2CBA2",
+        "color6": "#D3E4D8",
+        "color7": "#f0f2df",
+        "color8": "#a8a99c",
+        "color9": "#6F8E61",
+        "color10": "#A29360",
+        "color11": "#D9A75C",
+        "color12": "#78A487",
+        "color13": "#C2CBA2",
+        "color14": "#D3E4D8",
+        "color15": "#f0f2df"
+    }
+}

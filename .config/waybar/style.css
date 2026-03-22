@@ -1,0 +1,247 @@
+/* ═══════════════════════════════════════════════════
+   style.css — Waybar Modern Material You Dark
+   Bigger bar · larger chips · bold icons
+   ═══════════════════════════════════════════════════ */
+@import "../../.cache/wal/colors-waybar.css";
+* {
+  font-family: "JetBrainsMono  Nerd Font";
+  font-size: 15px;
+  font-weight: bold;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition: all 0.2s ease;
+}
+#custom-wayves {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 7px;
+  border-radius: 20px;
+  background-color: rgba(31, 29, 46, 0.6);
+  padding: 10px;
+  color: @color7;
+}
+#custom-archicon {
+  background-color: rgba(31, 29, 46, 0.6);
+  margin-top: 7px;
+  border-radius: 20px 0px 0px 20px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: @color7;
+}
+#window {
+  background-color: rgba(31, 29, 46, 0.6);
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 7px;
+  /* margin-left: -1px;  */
+  margin-right: 7px;
+}
+window#waybar {
+  background-color: transparent;
+  color: @foreground;
+}
+window#waybar.hidden {
+  opacity: 0.2;
+}
+window#waybar.empty #window {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+window#waybar.empty #custom-archicon {
+  border-radius: 20px;
+  margin-right: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* .modules-right { */
+/*   margin: 5px 5px 0 0; */
+/*   border-radius: 12px; */
+/*   background-color:rgba(31, 29, 46, 0.6); */
+/* } */
+.modules-center {
+  margin: 5px 0 0 0;
+  border-radius: 12px;
+  background-color: rgba(31, 29, 46, 1);
+}
+/* .modules-left { */
+/*   margin: 5px 0 0 5px; */
+/*   border-radius: 12px; */
+/*   background-color: rgba(31, 29, 46, 1); */
+/* } */
+button {
+  border: none;
+  padding: 0 5px;
+}
+#workspaces {
+  margin: 0 2px;
+  padding: 0 2px;
+}
+#workspaces button {
+  padding: 0;
+  background-color: @color7;
+  color: @color7;
+  font-weight: 500;
+  border-radius: 8;
+  min-height: 8px;
+  min-width: 17px;
+  margin: 6px 2px;
+}
+#workspaces button.active {
+  min-width: 28px;
+  background-color: @color1;
+}
+#workspaces button:hover {
+  background-color: @color4;
+}
+#workspaces button.urgent {
+  background-color: @color2;
+  color: @background;
+}
+#idle_inhibitor,
+#cava,
+#mode,
+#window,
+#clock,
+#battery,
+#temperature,
+#backlight,
+#pulseaudio,
+#wireplumber,
+#mpris,
+#load {
+  padding: 6px 12px;
+  color: @foreground;
+}
+#battery {
+  background-color: rgba(31, 29, 46, 0.6);
+  margin-top: 7px;
+  margin-right: 7px;
+  border-radius: 20px;
+}
+#pulseaudio {
+  margin-right: 7px;
+  margin-top: 7px;
+  border-radius: 20px;
+  background-color: rgba(31, 29, 46, 0.6);
+  padding: 10px;
+  color: @color1;
+}
+#wireplumber {
+  background-color: rgba(31, 29, 46, 0.6);
+  margin-top: 7px;
+  border-radius: 20px 0px 0px 20px;
+}
+#backlight {
+  background-color: rgba(31, 29, 46, 0.6);
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 7px;
+  margin-right: 7px;
+}
+#memory {
+  background-color: rgba(31, 29, 46, 0.6);
+  margin-top: 7px;
+  border-radius: 20px 0px 0px 20px;
+}
+#temperature {
+  background-color: rgba(31, 29, 46, 0.6);
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 7px;
+  margin-right: 7px;
+}
+#mpris {
+  background-color: rgba(31, 29, 46, 0.6);
+  margin-top: 7px;
+  margin-right: 7px;
+  border-radius: 20px;
+  color: @color1;
+}
+#network {
+  margin-right: 7px;
+  color: @color1;
+  margin-top: 7px;
+  border-radius: 20px;
+  background-color: rgba(31, 29, 46, 0.6);
+  padding: 10px;
+}
+#clock {
+  margin-right: 7px;
+  margin-top: 7px;
+  border-radius: 20px;
+  background-color: rgba(31, 29, 46, 0.6);
+  padding: 10px;
+  color: @color1;
+}
+#custom-notification {
+  margin-right: 7px;
+  margin-top: 7px;
+  border-radius: 20px;
+  background-color: rgba(31, 29, 46, 0.6);
+  padding: 10px;
+}
+#custom-power {
+  margin-right: 7px;
+  margin-top: 7px;
+  border-radius: 20px;
+  background-color: rgba(31, 29, 46, 0.6);
+  padding: 10px;
+}
+#mode {
+  background-color: @color3;
+  color: @background;
+}
+#battery.charging,
+#battery.plugged {
+  color: @color3;
+}
+@keyframes blink {
+  to {
+    background-color: @color2;
+    color: @background;
+  }
+}
+#battery.critical:not(.charging) {
+  color: @color2;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#network.disconnected {
+  color: @color2;
+  font-weight: bold;
+}
+#wireplumber.muted {
+  color: @color7;
+}
+#mpris.playing {
+  color: @foreground;
+}
+#window {
+  font-weight: 500;
+}
+/* Add subtle separators between modules */
+#idle_inhibitor,
+#cava,
+#mode,
+#temperature,
+#window,
+#clock,
+#battery,
+#mpris,
+#network,
+#load {
+  border-right: 1px solid rgba(110, 106, 134, 0.2);
+}
+/* .modules-right > widget:last-child > *, */
+/* .modules-left > widget:last-child > *, */
+.modules-center > widget:last-child > * {
+  border-right: none;
+}
+/* Add hover effects to interactive elements */
+#idle_inhibitor:hover,
+#clock:hover,
+#battery:hover {
+  background-color: rgba(38, 35, 58, 0.5);
+}

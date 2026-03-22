@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/nightmare/Pictures/wallpapers/cyberpunk-cityscape-girl-digital-art-4y-19-AB20D.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0812",
+        "foreground": "#e6c7ef",
+        "cursor": "#e6c7ef"
+    },
+    "colors": {
+        "color0": "#0d0812",
+        "color1": "#5C38BE",
+        "color2": "#A13FC1",
+        "color3": "#9F5EE2",
+        "color4": "#DB68EE",
+        "color5": "#CCB6B2",
+        "color6": "#AB97E9",
+        "color7": "#e6c7ef",
+        "color8": "#a18ba7",
+        "color9": "#5C38BE",
+        "color10": "#A13FC1",
+        "color11": "#9F5EE2",
+        "color12": "#DB68EE",
+        "color13": "#CCB6B2",
+        "color14": "#AB97E9",
+        "color15": "#e6c7ef"
+    }
+}
