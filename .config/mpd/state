@@ -1,0 +1,28 @@
+sw_volume: 100
+audio_device_state:1:PipeWire
+state: stop
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:MOOSIC/Chainsaw Man The Movie： Reze Arc ｜ OST -  09 - in the pool.mp3
+1:MOOSIC/Interstellar Main Theme - Extra Extended - Soundtrack by  Hans Zimmer.mp3
+2:MOOSIC/Mitski - Washing Machine Heart (Super Slowed + Extended).mp3
+3:MOOSIC/Golden Brown - The Stranglers (slowed + reverb).mp3
+4:MOOSIC/RED SEX (Re-Strung) - Vessel [ULTRA SLOWED].mp3
+5:MOOSIC/wiv - i love u. [Slowed To Perfection].mp3
+6:MOOSIC/The Dark Knight Main Theme - Hans Zimmer.mp3
+7:MOOSIC/Gladiator - Now We Are Free Super Theme Song.mp3
+8:MOOSIC/gta iv - soviet connection (slowed + reverb).mp3
+9:MOOSIC/clubbed to death extended - Matrix.mp3
+10:MOOSIC/𝐂𝐥𝐮𝐛𝐛𝐞𝐝 𝐓𝐨 𝐃𝐞𝐚𝐭𝐡 - 𝐒𝐥𝐨𝐰𝐞𝐝 𝐭𝐨 𝐩𝐞𝐫𝐟𝐞𝐜𝐭𝐢𝐨𝐧 & 𝐑𝐞𝐯𝐞𝐫𝐛.mp3
+11:MOOSIC/The Pixies - Where Is My Mind (Fight Club song).mp3
+12:MOOSIC/HOME.mp3
+13:MOOSIC/SHADOW MONSTER.mp3
+14:MOOSIC/happy nation - ace of base (slowed).mp3
+playlist_end
